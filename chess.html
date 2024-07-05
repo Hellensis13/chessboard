@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="chess.css">
+    <title>Chess</title>
+</head>
+<body>
+    <h1>Chess board</h1>
+    <div class="board">
+    <table class="chess-board">
+        <table>
+        <tr class="letters">
+            <th></th>
+            <th>a</th>
+            <th>b</th>
+            <th>c</th>
+            <th>d</th>
+            <th>e</th>
+            <th>f</th>
+            <th>g</th>
+            <th>h</th>
+        </tr>
+    </table>
+    <table>
+            <tr>
+                <th class="numbers">8</th>
+                <td class="white"> <div class="figure">&#9820; <span class="blackfigure">Rook</span></div></td>
+                <td class="black"> <div class="figure">&#9822; <span class="blackfigure">Knight</span></div></td>
+                <td class="white"> <div class="figure">&#9821; <span class="blackfigure">Bishop</span></div></td>
+                <td class="black"> <div class="figure">&#9819; <span class="blackfigure">Queen</span></div></td>
+                <td class="white"> <div class="figure">&#9818; <span class="blackfigure">King</span></div></td>
+                <td class="black"> <div class="figure">&#9821; <span class="blackfigure">Bishop</span></div></td>
+                <td class="white"> <div class="figure">&#9822; <span class="blackfigure">Knight</span></div></td>
+                <td class="black"> <div class="figure">&#9820; <span class="blackfigure">Rook</span></div></td>
+                <th class="numbers">8</th>
+            </tr>
+            <tr>
+                <th class="numbers">7</th>
+                <td class="black"> <div class="figure">&#9823; <span class="blackfigure">Pawn</span></div></td>
+                <td class="white"> <div class="figure">&#9823; <span class="blackfigure">Pawn</span></div></td>
+                <td class="black"> <div class="figure">&#9823; <span class="blackfigure">Pawn</span></div></td>
+                <td class="white"> <div class="figure">&#9823; <span class="blackfigure">Pawn</span></div></td>
+                <td class="black"> <div class="figure">&#9823; <span class="blackfigure">Pawn</span></div></td>
+                <td class="white"> <div class="figure">&#9823; <span class="blackfigure">Pawn</span></div></td>
+                <td class="black"> <div class="figure">&#9823; <span class="blackfigure">Pawn</span></div></td>
+                <td class="white"> <div class="figure">&#9823; <span class="blackfigure">Pawn</span></div></td>
+                <th class="numbers">7</th>
+            </tr>
+            <tr>
+            <th class="numbers">6</th>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <th class="numbers">6</th>
+        </tr>
+        <tr>
+            <th class="numbers">5</th>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <th class="numbers">5</th>
+        </tr>
+        <tr>
+            <th class="numbers">4</th>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <th class="numbers">4</th>
+        </tr>
+        <tr>
+            <th class="numbers">3</th>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <th class="numbers">3</th>
+        </tr>
+        <tr>
+            <th class="numbers">2</th>
+            <td class="white"> <div class="figure">&#9817; <span class="whitefigure">Pawn</span></div></td>
+            <td class="black"> <div class="figure">&#9817; <span class="whitefigure">Pawn</span></div></td>
+            <td class="white"> <div class="figure">&#9817; <span class="whitefigure">Pawn</span></div></td>
+            <td class="black"> <div class="figure">&#9817; <span class="whitefigure">Pawn</span></div></td>
+            <td class="white"> <div class="figure">&#9817; <span class="whitefigure">Pawn</span></div></td>
+            <td class="black"> <div class="figure">&#9817; <span class="whitefigure">Pawn</span></div></td>
+            <td class="white"> <div class="figure">&#9817; <span class="whitefigure">Pawn</span></div></td>
+            <td class="black"> <div class="figure">&#9817; <span class="whitefigure">Pawn</span></div></td>
+            <th class="numbers">2</th>
+        </tr>
+        <tr>
+            <th class="numbers">1</th>
+            <td class="black"> <div class="figure">&#9814 <span class="whitefigure">Rook</span></div></td>
+            <td class="white"> <div class="figure">&#9816 <span class="whitefigure">Knight</span></div></td>
+            <td class="black"> <div class="figure">&#9815 <span class="whitefigure">Bishop</span></div></td>
+            <td class="white"> <div class="figure">&#9813 <span class="whitefigure">Queen</span></div></td>
+            <td class="black"> <div class="figure">&#9812 <span class="whitefigure">King</span></div></td>
+            <td class="white"> <div class="figure">&#9815 <span class="whitefigure">Bishop</span></div></td>
+            <td class="black"> <div class="figure">&#9816 <span class="whitefigure">Knight</span></div></td>
+            <td class="white"> <div class="figure">&#9814 <span class="whitefigure">Rook</span></div></td>
+            <th class="numbers">1</th>
+        </tr>
+        </table>
+        <table>
+            <tr class="letters">
+                <th></th>
+                <th>a</th>
+                <th>b</th>
+                <th>c</th>
+                <th>d</th>
+                <th>e</th>
+                <th>f</th>
+                <th>g</th>
+                <th>h</th>
+            </tr>
+        </table>
+    </table>
+    </div>
+    
+</body>
+</html>

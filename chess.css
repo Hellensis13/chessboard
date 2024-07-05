@@ -1,0 +1,139 @@
+body {
+    background-color: #fff1e8;
+  }
+
+  .board {
+    border: 1px solid black;
+    padding: 2px;
+  }
+
+h1 {
+    text-align: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.letters {
+    
+    text-align: center;
+    background-color: #fff1e8;
+  }
+
+  .board td:hover {
+    background-color: #ffffff;
+  }
+  
+
+th {
+    width: 50px;
+    height: 50px;
+}
+
+td {
+    width: 50px;
+    height: 50px;
+}
+
+
+.chess-board { 
+    border-spacing: 0; 
+    border-collapse: collapse; 
+}
+
+.chess-board td { 
+    border: 1px solid; 
+    width: 2em; 
+    height: 2em; 
+    
+    vertical-align: middle; 
+}
+
+.board .white { 
+    background: #f0d9b5;
+    border: 1px solid; 
+}
+
+.board .black { 
+    background: #b58863; 
+    border: 1px solid; 
+}
+
+.board {
+    text-align: center; 
+     background-color: #fff1e8; 
+}
+
+.blackfigure {
+    visibility: hidden;
+    width:fit-content;
+    
+    border-radius: 5px;
+    padding: 2px;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    margin-left: 5px;
+    transform: translateY(-100%);
+  }
+
+  .whitefigure {
+    visibility: hidden;
+    width:fit-content;
+    
+    border-radius: 5px;
+    padding: 2px;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    margin-left: 5px;
+    transform: translateY(-100%);
+  }
+
+  .figure:hover .whitefigure {
+    visibility: visible;
+  }
+
+  .figure:hover .blackfigure {
+    visibility: visible;
+  }
+
+  .figure .whitefigure {
+    position: absolute;
+  visibility: hidden;
+  z-index: 1;
+  width: 100px;
+  top: 66%;
+  left: 65%;
+    background-color: rgb(255, 253, 253);
+    color: rgb(12, 0, 0);
+    border: 1px solid;
+    border-color: #000000;
+    padding: 0 5px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.figure .blackfigure {
+    position: absolute;
+  visibility: hidden;
+  z-index: 1;
+  width: 100px;
+  top: 35%; 
+    left: 65%;
+    background-color: rgb(3, 0, 0);
+    color: rgb(252, 250, 250);
+    border: 1px solid;
+    border-color: #ffffff;
+    padding: 0 5px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
